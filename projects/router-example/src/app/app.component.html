@@ -388,7 +388,12 @@
 
   <!-- Next Steps -->
   <h2>Next Steps</h2>
-  <p>What do you want to do next with your app?</p>
+ <h1 class="title">Component Router</h1>
+    <nav>
+      <a [routerLink]="['items']">Crisis Center</a>
+      <a [routerLink]="['heros']">Heroes</a>
+    </nav>
+    <router-outlet></router-outlet>
 
   <input type="hidden" #selection>
 
